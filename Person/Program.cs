@@ -66,7 +66,7 @@ namespace Person
             foreach (Person p in people)
             {
                 string input = p.Name;
-                FirstCharToUpper(input);
+                //FirstCharToUpper(input);
                 Console.WriteLine("OUTPUT: " + input);
                 p.Name = input;
             }
@@ -129,9 +129,9 @@ namespace Person
             }
             Console.ReadLine();
         }
-        public static string FirstCharToUpper(string input)
-        {
-            return CultureInfo.CurrentCulture.TextInfo.ToTitleCase(input);
-        }
+        //public static string FirstCharToUpper(string input)
+        //{
+        //    return CultureInfo.CurrentCulture.TextInfo.ToTitleCase(input);
+        //}
     }
 }

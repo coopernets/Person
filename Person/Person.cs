@@ -6,6 +6,11 @@ using System.Threading.Tasks;
 
 namespace Person
 {
+    /// <summary>
+    /// James Cooper
+    /// 1337466
+    /// Feedback
+    /// </summary>
     class Person
     {
         private string title;
